@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>L SURYA- Portfolio</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="header-content">
+            <h1>SURYA L</h1>
+            <p>Web Developer & Designer</p>
+        </div>
+    </header>
+
+    <section class="about">
+        <div class="section-content">
+            <h2>About Me</h2>
+            <p>I'm a passionate web developer and designer with a strong foundation in front-end and back-end technologies. My journey in the tech industry began [mention your background and how you got started]. Throughout my career, I've honed my skills in web development, UI/UX design, and creating user-centric experiences. I'm known for my commitment to delivering innovative solutions and my ability to adapt to dynamic project requirements.</p>
+        </div>
+    </section>
+
+    <section class="skills">
+        <div class="section-content">
+            <h2>Skills</h2>
+            <ul>
+                <li>Front-end Development: HTML, CSS, JavaScript, React</li>
+                <li>Back-end Development: Node.js, Express</li>
+                <li>UI/UX Design: Adobe Creative Suite (Photoshop, Illustrator)</li>
+                <li>Database: MongoDB</li>
+                <li>Version Control: Git</li>
+                <li>Project Management: Agile, Scrum</li>
+                <li>Other: Responsive Web Design, Web Accessibility, SEO</li>
+            </ul>
+        </div>
+    </section>
+
+    <section class="work-experience">
+        <div class="section-content">
+            <h2>Work Experience</h2>
+            <div class="job">
+                <h3>Senior Web Developer</h3>
+                <p>Company Name - Date</p>
+                <p>As a Senior Web Developer, I led a team of developers to build web applications that made many prizes. My responsibilities included my all responsibilities.</p>
+            </div>
+            <div class="job">
+                <h3>UX Designer</h3>
+                <p>Company Name - Date</p>
+                <p>During my time as a UX Designer, I crafted engaging and intuitive user experiences for my projects]. I conducted user research, created wireframes and prototypes, and collaborated with cross-functional teams to deliver exceptional results.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="projects">
+        <div class="section-content">
+            <h2>Projects</h2>
+            <div class="project">
+                <h3>Project Title</h3>
+                <p>For this project, my role and contributions, technologies used, and results achieved.</p>
+            </div>
+            <div class="project">
+                <h3>Another Project Title</h3>
+                <p>In this project, I my role and contributions, technologies used, and results achieved].</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="contact">
+        <div class="section-content">
+            <h2>Contact Me</h2>
+            <p>Email: surya081712@email.com</p>
+            <p>LinkedIn: [https://www.linkedin.com/posts/surya-l-81922a256_it-student-activity-7113824613586935808-vXRw?utm_source=share&utm_medium=member_android</p>
+            <p>GitHub: [in progress]</p>
+        </div>
+    </section>
+</body>
+</html>
