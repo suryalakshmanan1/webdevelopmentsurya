@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Nexilo Tech - Welcome</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home">
+        <div class="hero">
+            <h1>Welcome to Nexilo Tech</h1>
+            <p>Your Tech Solution Partner</p>
+            <a href="#contact" class="cta-button">Get in Touch</a>
+        </div>
+    </section>
+
+    <section id="about">
+        <div class="about-us">
+            <h2>About Us</h2>
+            <p>
+                "At Nexilo Tech, we're on a mission to transform the digital landscape. With a strong commitment to innovation, we specialize in cutting-edge technology solutions that redefine possibilities. Our team of dedicated experts brings together a wealth of knowledge and experience to provide you with the latest in tech advancements. From software development to state-of-the-art hardware solutions, we're your trusted partner in the ever-evolving world of technology. Join us on this exciting journey towards a smarter future."
+                
+                Feel free to tailor and expand upon this description to better match your company's unique vision and goals..</p>
+        </div>
+    </section>
+
+    <section id="services">
+        <div class="services">
+            <h2>Our Services</h2>
+            <ul>
+                <li>Web Development</li>
+                <li>Mobile App Development</li>
+                <li>Cloud Solutions</li>
+                <li>Data Analytics</li>
+            </ul>
+        </div>
+    </section>
+
+    <section id="contact">
+        <div class="contact">
+            <h2>Contact Us</h2>
+            <p>Ready to get started or have any questions? Contact us today, and our team will be happy to assist you.</p>
+            <a href="mailto:nexilo2023@gmail.com" class="cta-button">Email Us</a>
+        </div>
+    </section>
+    
+    <footer>
+        <p>&copy; 2023 Nexilo Tech</p>
+    </footer>
+</body>
+</html>
+
+#css
+/* Basic styles, you can further customize these */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url(https://images.unsplash.com/photo-1619963098787-23252986767e?auto=format&fit=crop&q=80&w=1000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8NnwyMTgyMDkwfHxlbnwwfHx8fHw%3D);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    display: inline;
+    margin: 0 20px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.hero {
+    text-align: center;
+    padding: 100px 0;
+}
+
+.hero h1 {
+    font-size: 36px;
+}
+
+.cta-button {
+    display: inline-block;
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    margin-top: 20px;
+    border: 2px solid #fff;
+}
+
+.cta-button:hover {
+    background-color: #fff;
+    color: #333;
+}
+
+.about-us, .services, .contact {
+    padding: 50px 0;
+    text-align: center;
+}
+
+.about-us h2, .services h2, .contact h2 {
+    font-size: 24px;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+.contact {
+    text-decoration-color: aliceblue;
+}
