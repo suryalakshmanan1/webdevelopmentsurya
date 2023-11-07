@@ -74,3 +74,50 @@
     </section>
 </body>
 </html>
+
+
+#css 
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('your-background-image.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    color: #333;
+}
+
+header {
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    text-align: center;
+    padding: 50px 0;
+}
+
+.header-content {
+    padding: 20px;
+    border-radius: 10px;
+    display: inline-block;
+}
+
+.section {
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px;
+}
+
+ul {
+    list-style-type: disc;
+    margin-left: 20px;
+}
+
+.job {
+    margin-bottom: 20px;
+}
+
+.project {
+    margin-bottom: 20px;
+}
+
+/* Add more CSS styles to customize the look of your portfolio. */
